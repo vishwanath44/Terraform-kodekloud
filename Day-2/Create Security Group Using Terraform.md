@@ -1,4 +1,22 @@
-## Day2 :Create Security Group Using Terraform
+## Day 2: Create Security Group Using Terraform
+
+**Task Overview (Add Before Step 1)**
+
+This task uses Terraform (Infrastructure as Code) to provision an AWS Security Group.
+
+The Security Group will be created in the default VPC of the us-east-1 region.
+
+Two inbound rules are required:
+
+HTTP (Port 80) accessible from anywhere.
+
+SSH (Port 22) accessible from anywhere.
+
+An outbound rule is added to allow all traffic, following AWS best practices.
+
+All resources are defined in a single Terraform file (main.tf) as required.
+
+Terraform will manage the lifecycle of this security group in an idempotent manner.
 
 ## Step 1: Go to Terraform working directory
 ```bash
