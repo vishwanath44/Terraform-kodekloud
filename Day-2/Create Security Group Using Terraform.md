@@ -1,4 +1,4 @@
-## Day2 - Create Security Group Using Terraform
+## Day2 :Create Security Group Using Terraform
 
 ## Step 1: Go to Terraform working directory
 ```bash
