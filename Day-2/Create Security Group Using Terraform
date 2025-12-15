@@ -2,9 +2,9 @@
 ```bash
 cd /home/bob/terraform
 ```
-```bashStep 2: Create main.tf (ONLY this file)
+📝 Step 2: Create main.tf (ONLY this file)
 vi main.tf
-```
+
 
 Paste the entire content below ⬇️
 
